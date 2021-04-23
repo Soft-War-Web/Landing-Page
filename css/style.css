@@ -1,15 +1,11 @@
 html{
-    scroll-behavior: smooth;
 }
 body{
-    background-image: url("./../assets/fondo/fondo.jpg");
+    background-image: url("./../assets/fondo/fondolanding.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-
-
 }
 .imagenopacidad
 {
@@ -21,6 +17,7 @@ body{
     width: 100%;
     z-index: 9;
 }
+
 .nav-custom{
     justify-items: flex-end;
 }
@@ -33,7 +30,7 @@ body{
 }
 .navbar-nav .nav-item .nav-link {
     padding: 0 10px;
-    color: White;
+    color: black;
     font-family: "Times New Roman";
 }
 .navbar-nav .nav-item:last-child {
@@ -74,7 +71,7 @@ body{
     position: relative;
     transition: top 0.2s;
     cursor: pointer;
-    color: red;
+    color: green;
     text-decoration: none;
 }
 .to-hover:hover{
@@ -106,7 +103,7 @@ body{
     font-size: 50px;
 }
 .content-benefits .col-4{
-   text-align: center;
+    text-align: center;
 }
 .benefits-title{
     text-align: center;
@@ -240,7 +237,7 @@ footer{
 .main-footer{
     padding: 50px 0;
     border-top: 1px solid black;
-    background: greenyellow;
+    background: limegreen;
 }
 .content-footer{
     display: flex;
@@ -265,20 +262,21 @@ footer{
 @media (max-width:768px){
     h1{
         font-size: 24px;
-        color
+        color: white;
     }
     h3{
         font-size: 20px;
     }
     .navbar {
-        background: black;
+        background: white;
+        opacity: 0.9;
     }
     .navbar button{
         background: white;
     }
     .navbar-nav .nav-item .nav-link {
-        padding: 50 10px;
-        color: white;
+        padding: 50px 10px;
+        color: lightgray;
     }
     .content-banner{
         text-align: center;
